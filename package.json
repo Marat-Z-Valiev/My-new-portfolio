@@ -1,17 +1,46 @@
 {
-  "name": "new-portfolio",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@types/react": "^16.9.35",
-    "@types/react-dom": "^16.9.8",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
-  }
+	"name": "new-portfolio",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "parcel index.html",
+		"test": "jest",
+		"build": "parcel build index.html"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@types/jest": "^25.2.3",
+		"@types/prop-types": "^15.7.3",
+		"@types/react": "^16.9.35",
+		"@types/react-dom": "^16.9.8",
+		"@types/styled-components": "^5.1.0",
+		"prop-types": "^15.7.2",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"styled-components": "^5.1.1",
+		"tslib": "^2.0.0"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.10.1",
+		"@babel/plugin-proposal-class-properties": "^7.10.1",
+		"@babel/plugin-proposal-json-strings": "^7.10.1",
+		"@babel/plugin-syntax-dynamic-import": "^7.8.3",
+		"@babel/plugin-syntax-import-meta": "^7.10.1",
+		"@babel/plugin-transform-modules-commonjs": "^7.10.1",
+		"@babel/plugin-transform-object-assign": "^7.10.1",
+		"@babel/plugin-transform-runtime": "^7.10.1",
+		"@babel/preset-react": "^7.10.1",
+		"@babel/preset-typescript": "^7.10.1",
+		"babel-core": "^6.26.3",
+		"babel-plugin-styled-components": "^1.10.7",
+		"babel-preset-react": "^6.24.1",
+		"enzyme": "^3.11.0",
+		"enzyme-adapter-react-16": "^1.15.2",
+		"enzyme-to-json": "^3.5.0",
+		"jest": "^26.0.1",
+		"parcel-bundler": "^1.12.4",
+		"typescript": "^3.9.3"
+	}
 }
