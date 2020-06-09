@@ -1,6 +1,8 @@
 import React from "react";
 import {createGlobalStyle} from "styled-components";
-import NavBar from "./NavBar/NavBar";
+import Navigation from "./Navigation/Navigation";
+import About from "./About/About";
+import Projects from "./Projects/Projects";
 
 const App = () => {
 	const GlobalStyle = createGlobalStyle`
@@ -21,9 +23,10 @@ const App = () => {
 
 	return (
 		<>
-			<GlobalStyle>
-				<NavBar></NavBar>
-			</GlobalStyle>
+			<GlobalStyle />
+			<Navigation />
+			<About />
+			<Projects />
 		</>
 	);
 };
