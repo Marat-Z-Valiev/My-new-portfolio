@@ -1,6 +1,7 @@
 import React from "react";
 import Project from "../Project/Project";
 import ProjectsStyled from "./ProjectsStyled";
+import projects from "../../data/projects";
 
 const Projects: React.FC = () => {
 	return (
@@ -8,7 +9,9 @@ const Projects: React.FC = () => {
 			<div id="projects" className="projects">
 				<h2>Projects</h2>
 				<div className="projects-list">
-					<Project></Project>
+					{Object.keys(projects).map((key) => (
+						<Project key={key} project={projects[key]} />
+					))}
 				</div>
 			</div>
 		</ProjectsStyled>

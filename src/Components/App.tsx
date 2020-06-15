@@ -8,7 +8,7 @@ const App = () => {
 	const GlobalStyle = createGlobalStyle`
 	body {
 	font-family: "Baloo Chettan 2", cursive;
-	background-color: #0c6cb4;
+	background-color: #2891de;
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
