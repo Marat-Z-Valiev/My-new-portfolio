@@ -20,6 +20,12 @@ const SkillSetsStyled = styled.div`
 		grid-gap: 15px;
 		justify-items: center;
 
+		@media (min-width: 1366px) {
+			width: 75%;
+			width: 800px;
+			margin: 0 auto;
+		}
+
 		i {
 			font-size: 80px;
 		}

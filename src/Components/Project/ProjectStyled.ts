@@ -32,12 +32,17 @@ const ProjectStyled = styled.div`
 				margin-left: 15px;
 				width: 100%;
 				height: auto;
-				&:hover {
-					box-shadow: 6px 7px 52px -1px rgba(0, 0, 0, 0.37);
-				}
+				box-shadow: 10px 7px 52px -1px rgba(0, 0, 0, 0.37);
+
 				@media (max-width: 996px) {
 					order: 1;
 					width: 90%;
+					margin: 0 auto;
+				}
+
+				@media (min-width: 1366px) {
+					width: 75%;
+					width: 800px;
 					margin: 0 auto;
 				}
 			}
@@ -86,13 +91,14 @@ const ProjectStyled = styled.div`
 				text-align: center;
 				background-color: #549657;
 				color: white;
+				transition: background-color ease-in 0.3s;
 
 				@media (min-width: 320px) and (max-width: 425px) {
 					max-width: 100px;
 				}
 
 				&:hover {
-					background: #3d7140;
+					background-color: #3d7140;
 				}
 			}
 		}
