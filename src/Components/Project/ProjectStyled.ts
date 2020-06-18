@@ -19,6 +19,10 @@ const ProjectStyled = styled.div`
 			display: flex;
 			justify-content: space-evenly;
 
+			@media (max-width: 996px) {
+				flex-direction: column;
+			}
+
 			.right {
 				order: 2;
 			}
@@ -26,8 +30,15 @@ const ProjectStyled = styled.div`
 			img {
 				box-shadow: none;
 				margin-left: 15px;
+				width: 100%;
+				height: auto;
 				&:hover {
 					box-shadow: 6px 7px 52px -1px rgba(0, 0, 0, 0.37);
+				}
+				@media (max-width: 996px) {
+					order: 1;
+					width: 90%;
+					margin: 0 auto;
 				}
 			}
 		}
@@ -75,6 +86,10 @@ const ProjectStyled = styled.div`
 				text-align: center;
 				background-color: #549657;
 				color: white;
+
+				@media (min-width: 320px) and (max-width: 425px) {
+					max-width: 100px;
+				}
 
 				&:hover {
 					background: #3d7140;

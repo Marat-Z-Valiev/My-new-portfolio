@@ -1,6 +1,6 @@
 const headerLinks = [
 	{label: "PROJECTS", link: "projects"},
-	{label: "SKILL SET", link: "skillSet"},
+	{label: "SKILL SETS", link: "skillSet"},
 	{label: "CONTACT", link: "contact"},
 ];
 

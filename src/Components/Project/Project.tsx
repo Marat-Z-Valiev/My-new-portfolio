@@ -14,7 +14,9 @@ const Project: React.FC<ProjectProps> = ({project}) => {
 		githubLink,
 		backgroundClass,
 		position,
+		technologies,
 	} = project;
+
 	const backgroundColor = backgroundClass === "white" ? "white" : "blue";
 	const imagePosition = position === "right" ? "right" : "";
 	return (
@@ -29,9 +31,9 @@ const Project: React.FC<ProjectProps> = ({project}) => {
 				</div>
 				<h2>Technologies</h2>
 				<div className="technologies">
-					<img src="https://i.ibb.co/qYDMK54/React-js-logo.png" alt="" />
-					<img src="https://i.ibb.co/QCN8KZ9/redux.png" alt="" />
-					<img src="https://i.ibb.co/Ct9gHzc/typescript.png" alt="" />
+					{technologies.map((key: any) => (
+						<img key={key} src={key} alt="" />
+					))}
 				</div>
 				<div className="buttons">
 					<a href={websiteLink} target="blank">

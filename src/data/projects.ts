@@ -9,6 +9,11 @@ const projects = {
 		githubLink: "https://github.com/Marat-Z-Valiev/movies-api-tmdb",
 		githubIcon: "fa fa-github fa-2x",
 		backgroundClass: "white",
+		technologies: [
+			"https://i.ibb.co/qYDMK54/React-js-logo.png",
+			"https://i.ibb.co/QCN8KZ9/redux.png",
+			"https://i.ibb.co/Ct9gHzc/typescript.png",
+		],
 	},
 	project2: {
 		name: "Movies API",
@@ -21,6 +26,11 @@ const projects = {
 		githubIcon: "fa fa-github fa-2x",
 		backgroundClass: "blue",
 		position: "right",
+		technologies: [
+			"https://i.ibb.co/qYDMK54/React-js-logo.png",
+			"https://i.ibb.co/QCN8KZ9/redux.png",
+			"https://i.ibb.co/Ct9gHzc/typescript.png",
+		],
 	},
 	project3: {
 		name: "Movies API",
@@ -32,6 +42,11 @@ const projects = {
 		githubLink: "https://github.com/Marat-Z-Valiev/Random_quote_machine",
 		githubIcon: "fa fa-github fa-2x",
 		backgroundClass: "white",
+		technologies: [
+			"https://i.ibb.co/qYDMK54/React-js-logo.png",
+			"https://i.ibb.co/QCN8KZ9/redux.png",
+			"https://i.ibb.co/Ct9gHzc/typescript.png",
+		],
 	},
 };
 

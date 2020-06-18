@@ -3,6 +3,8 @@ import {createGlobalStyle} from "styled-components";
 import Navigation from "./Navigation/Navigation";
 import About from "./About/About";
 import Projects from "./Projects/Projects";
+import SkillSets from "./SkillSets/SkillSets";
+import Contact from "./Contact/Contact";
 
 const App = () => {
 	const GlobalStyle = createGlobalStyle`
@@ -13,12 +15,6 @@ const App = () => {
 	margin: 0;
 	padding: 0;
 	}
-
-	.error-message{
-		text-align: center;
-		color: #ffffff;
-		font-size: 1.3rem;
-	}
 	`;
 
 	return (
@@ -27,6 +23,8 @@ const App = () => {
 			<Navigation />
 			<About />
 			<Projects />
+			<SkillSets />
+			<Contact />
 		</>
 	);
 };
