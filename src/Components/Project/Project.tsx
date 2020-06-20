@@ -1,11 +1,11 @@
 import React from "react";
 import ProjectStyled from "./ProjectStyled";
-
+import PropTypes from "prop-types";
 interface ProjectProps {
 	project: any;
 }
 
-const Project: React.FC<ProjectProps> = ({project}) => {
+const Project: React.FC<ProjectProps> = ({project}: any) => {
 	const {
 		name,
 		description,
@@ -46,6 +46,10 @@ const Project: React.FC<ProjectProps> = ({project}) => {
 			</div>
 		</ProjectStyled>
 	);
+};
+
+Project.propTypes = {
+	project: PropTypes.object.isRequired,
 };
 
 export default Project;

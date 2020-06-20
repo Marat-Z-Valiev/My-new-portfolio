@@ -3,11 +3,7 @@ import NavLink from "../NavigationLink/NavigationLink";
 import NavStyled from "./NavigationStyled";
 import headerLinks from "../../data/headerLinks";
 
-interface NavigationProps {
-	link: string;
-}
-
-const Navigation: React.FC<NavigationProps> = () => {
+const Navigation: React.FC = () => {
 	let [isSticky, setStickyNav] = useState(false);
 
 	const handleScroll = () => {

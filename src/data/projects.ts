@@ -5,9 +5,7 @@ const projects = {
 			"The project built using ReactJS, TypeScript, React Router, Redux, Jest. Utilizing  (TMDB API). Fully responsive and accessible.",
 		image: "https://i.ibb.co/JQr8Zmp/movie-api-image-resized.jpg",
 		websiteLink: "https://movies-api-marat.netlify.app/",
-		globeIcon: "fa fa-globe fa-2x",
 		githubLink: "https://github.com/Marat-Z-Valiev/movies-api-tmdb",
-		githubIcon: "fa fa-github fa-2x",
 		backgroundClass: "white",
 		technologies: [
 			"https://i.ibb.co/qYDMK54/React-js-logo.png",

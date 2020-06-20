@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Project should render correctly 1`] = `
+<ProjectStyled>
+  <div
+    className="project blue"
+  >
+    <div
+      className="project-info"
+    >
+      <img
+        alt=""
+        className=""
+      />
+      <div
+        className="project-description"
+      >
+        <h2 />
+        <p
+          className="project-summary"
+        />
+      </div>
+    </div>
+    <h2>
+      Technologies
+    </h2>
+    <div
+      className="technologies"
+    >
+      <img
+        alt=""
+        key="test"
+        src="test"
+      />
+    </div>
+    <div
+      className="buttons"
+    >
+      <a
+        target="blank"
+      >
+        Live Preview
+      </a>
+      <a
+        target="blank"
+      >
+        View Github
+      </a>
+    </div>
+  </div>
+</ProjectStyled>
+`;
