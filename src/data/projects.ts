@@ -28,19 +28,18 @@ const projects = {
 		],
 	},
 	project3: {
-		name: "Movies API",
+		name: "Landing page project",
 		description:
-			"The project built using ReactJS, TypeScript, API, React Router, Redux, Jest",
-		image: "https://i.ibb.co/TB1ZXJL/Pic-App-Apple-i-Mac-cropped.jpg",
-		websiteLink: "https://marat-z-valiev.github.io/Random_quote_machine",
-		globeIcon: "fa fa-globe fa-2x",
-		githubLink: "https://github.com/Marat-Z-Valiev/Random_quote_machine",
-		githubIcon: "fa fa-github fa-2x",
+			"I built this landing page as part of a challenge on Frontend Mentor website. The website was created using best practices of web accessibility and responsive design.",
+		image: "https://i.ibb.co/92cWw0Y/desktop-preview.jpg",
+		websiteLink: "https://landing-page-mv.netlify.app/",
+		githubLink: "https://github.com/Marat-Z-Valiev/landing-page-project",
 		backgroundClass: "white",
 		technologies: [
-			"https://i.ibb.co/qYDMK54/React-js-logo.png",
-			"https://i.ibb.co/QCN8KZ9/redux.png",
-			"https://i.ibb.co/Ct9gHzc/typescript.png",
+			"https://i.ibb.co/q98SPqF/288-Sass-512.png",
+			"https://i.ibb.co/b5kc6P6/html.png",
+			"https://i.ibb.co/Z2fvk3S/css.jpg",
+			"https://i.ibb.co/0DzXyBn/js.png",
 		],
 	},
 };
