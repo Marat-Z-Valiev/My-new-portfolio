@@ -2,7 +2,7 @@ const projects = {
 	project1: {
 		name: "Movies API",
 		description:
-			"The porject is utilizing  (TMDB API) to display informarion about movies, actors, popular movies and also search for movies. Built using ReactJS, TypeScript, React Router, Redux, Jest. Fully responsive and accessible",
+			"The project is utilizing  (TMDB API) to display informarion about movies, actors, popular movies and also search for movies. Built using ReactJS, TypeScript, React Router, Redux, Jest. Fully responsive and accessible",
 		image: "https://i.ibb.co/JQr8Zmp/movie-api-image-resized.jpg",
 		websiteLink: "https://movies-api-marat.netlify.app/",
 		githubLink: "https://github.com/Marat-Z-Valiev/movies-api-tmdb",
