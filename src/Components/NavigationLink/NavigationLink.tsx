@@ -2,9 +2,10 @@ import React from "react";
 import PropTypes from "prop-types";
 import {Link} from "react-scroll";
 
-interface NavigationLinkProps {
-	link: any;
-	label: any;
+type NavigationLinkProps = {
+	link: string;
+	label: string;
+	className: string
 }
 
 const NavigationLink: React.FC<NavigationLinkProps & {className: string}> = ({
@@ -25,11 +26,6 @@ const NavigationLink: React.FC<NavigationLinkProps & {className: string}> = ({
 			</Link>
 		</li>
 	);
-};
-
-NavigationLink.propTypes = {
-	link: PropTypes.string,
-	label: PropTypes.string,
 };
 
 export default NavigationLink;
