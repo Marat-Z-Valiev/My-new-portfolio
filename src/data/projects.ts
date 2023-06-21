@@ -14,17 +14,18 @@ const projects = {
 		],
 	},
 	project2: {
-		name: "StoryBooks",
+		name: "Expenses tracker",
 		description:
-			"StoryBooks allows you to login into the app using Google account. Users can create, edit and delete stories. The project built using NodeJS, Express, MongoDB, Passport js for Google Auth, Handlebars framework",
-		image: "https://i.ibb.co/m0dsKts/Story-Books-project.png",
-		websiteLink: "https://storybooks-nodejs-app.herokuapp.com/",
-		githubLink: "https://github.com/Marat-Z-Valiev/nodejs-app",
+			"Simple expenses tracker app. Build using React, Firebase, Typescript",
+		image: "https://i.ibb.co/JHTjcNK/Screenshot-2023-06-20-at-11-03-35-PM.png",
+		websiteLink: "https://manage-expenses-app-mv.netlify.app/",
+		githubLink: "https://github.com/Marat-Z-Valiev/expenses-app",
 		backgroundClass: "blue",
 		position: "right",
 		technologies: [
-			"https://i.ibb.co/WHxbkfj/mongodb-logo.png",
-			"https://i.ibb.co/52XxdJp/603784-nodejs-512x512.png",
+			"https://cdn.freebiesupply.com/logos/thumbs/2x/firebase-1-logo.png",
+			"https://i.ibb.co/qYDMK54/React-js-logo.png",
+			"https://i.ibb.co/Ct9gHzc/typescript.png"
 		],
 	},
 	project3: {
