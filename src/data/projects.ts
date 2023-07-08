@@ -16,7 +16,7 @@ const projects = {
 	project2: {
 		name: "Expenses tracker",
 		description:
-			"Simple expenses tracker app. Build using React, Firebase, Typescript",
+			"Simple expenses tracker app. Built using React, Firebase, Typescript",
 		image: "https://i.ibb.co/JHTjcNK/Screenshot-2023-06-20-at-11-03-35-PM.png",
 		websiteLink: "https://manage-expenses-app-mv.netlify.app/",
 		githubLink: "https://github.com/Marat-Z-Valiev/expenses-app",
@@ -41,6 +41,22 @@ const projects = {
 			"https://i.ibb.co/b5kc6P6/html.png",
 			"https://i.ibb.co/Z2fvk3S/css.jpg",
 			"https://i.ibb.co/0DzXyBn/js.png",
+		],
+	},
+	project4: {
+		name: "Recipes list",
+		description:
+			"Recipes list project using Vue, Vite, MongoDB, TypeScript",
+		image: "https://i.ibb.co/RYCxd1T/Screenshot-2023-07-03-at-9-16-49-PM.png",
+		websiteLink: "https://recipes-vue-app-mv.netlify.app/",
+		githubLink: "https://github.com/Marat-Z-Valiev/recipes-app-vue",
+		backgroundClass: "blue",
+		position: "right",
+		technologies: [
+			"https://i.ibb.co/mN3ppyM/1184px-Vue-js-Logo-2-svg.png",
+			"https://i.ibb.co/W5q7Kny/logo-with-shadow.png",
+			"https://i.ibb.co/WHxbkfj/mongodb-logo.png",
+			"https://i.ibb.co/Ct9gHzc/typescript.png",
 		],
 	},
 };
