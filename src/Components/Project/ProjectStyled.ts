@@ -52,7 +52,7 @@ const ProjectStyled = styled.div`
 			flex-direction: column;
 			justify-content: space-evenly;
 			align-items: center;
-			justify-content: end;
+			justify-content: center;
 
 			h2 {
 				font-size: 1.8rem;
